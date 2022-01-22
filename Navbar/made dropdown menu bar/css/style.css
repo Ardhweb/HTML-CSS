@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+.u-line{
+   
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: rgb(80, 80, 253);
+}
+
+.link{
+   float: left;  
+}
+
+
+.link a{
+    display: block;
+    color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 15px 17px;
+   text-align: center;
+   text-decoration: none;
+  
+}
+
+
+.link a:hover{
+    background-color: rgb(240, 99, 64);
+}
+
+
+.drop {
+    float: left;
+    overflow: hidden;
+  }
+
+  
+  .drop .dropbt {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+  }
+  
+  .drop:hover .dropbt {
+    background-color: rgb(240, 99, 64);
+  }
+  
+  .dropdown_items {
+    display: none;
+    position: absolute;
+    background-color: #d1d8d5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 2.9rem;
+    
+  }
+  
+  .dropdown_items a {
+    float: none;
+    color: black;
+    padding: 15px 17px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown_items a:hover {
+    background-color: rgb(235, 166, 77);
+  }
+  
+  .drop:hover .dropdown_items {
+    display: block;
+  }
+
+
+
+
+  .bg{
+    background-image: url("/img/puffins-g0c51cf364_1280.jpg");
+    height: 720px;
+    margin-top: 0%;
+  }
+
+  .bg .h1{
+      font-size: 50px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: left;
+      margin-top: 0%;
+      padding-top: 200px;
+      padding-left: 150px;
+      word-wrap: wrap;
+    
+     
+  }
